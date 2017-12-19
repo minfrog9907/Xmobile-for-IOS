@@ -14,6 +14,8 @@
 		BE4430051FE8A36300EBC72E /* star_pig.png in Resources */ = {isa = PBXBuildFile; fileRef = BE442FFF1FE8A36300EBC72E /* star_pig.png */; };
 		BE4430061FE8A36300EBC72E /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4430001FE8A36300EBC72E /* history.png */; };
 		BE4430081FE8A39800EBC72E /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4430071FE8A39800EBC72E /* logo_big.png */; };
+		BE44300A1FE8A42D00EBC72E /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4430091FE8A42D00EBC72E /* progress.png */; };
+		BE44300C1FE8A44E00EBC72E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE44300B1FE8A44E00EBC72E /* back.png */; };
 		BEF5AFA91FE7511800BABB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5AFA81FE7511800BABB3E /* AppDelegate.swift */; };
 		BEF5AFAB1FE7511800BABB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5AFAA1FE7511800BABB3E /* ViewController.swift */; };
 		BEF5AFAE1FE7511800BABB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5AFAC1FE7511800BABB3E /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 		BE442FFF1FE8A36300EBC72E /* star_pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_pig.png; path = "../../../../Downloads/Design-3-2/star_pig.png"; sourceTree = "<group>"; };
 		BE4430001FE8A36300EBC72E /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = "../../../../Downloads/Design-3-2/history.png"; sourceTree = "<group>"; };
 		BE4430071FE8A39800EBC72E /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_big.png; path = ../../../../Downloads/DarkTheme/logo_big.png; sourceTree = "<group>"; };
+		BE4430091FE8A42D00EBC72E /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progress.png; path = ../../../../Downloads/progress.png; sourceTree = "<group>"; };
+		BE44300B1FE8A44E00EBC72E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../back.png; sourceTree = "<group>"; };
 		BEF5AFA51FE7511800BABB3E /* Xmobile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xmobile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5AFA81FE7511800BABB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF5AFAA1FE7511800BABB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,8 +95,10 @@
 		BE442FFA1FE8A30500EBC72E /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				BE4430091FE8A42D00EBC72E /* progress.png */,
 				BE4430071FE8A39800EBC72E /* logo_big.png */,
 				BE442FFB1FE8A36300EBC72E /* folder_light.png */,
+				BE44300B1FE8A44E00EBC72E /* back.png */,
 				BE4430001FE8A36300EBC72E /* history.png */,
 				BE442FFC1FE8A36300EBC72E /* logo.png */,
 				BE442FFD1FE8A36300EBC72E /* settings.png */,
@@ -262,12 +268,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4430061FE8A36300EBC72E /* history.png in Resources */,
+				BE44300A1FE8A42D00EBC72E /* progress.png in Resources */,
 				BE4430051FE8A36300EBC72E /* star_pig.png in Resources */,
 				BE4430031FE8A36300EBC72E /* settings.png in Resources */,
 				BE4430081FE8A39800EBC72E /* logo_big.png in Resources */,
 				BEF5AFB31FE7511800BABB3E /* LaunchScreen.storyboard in Resources */,
 				BE4430021FE8A36300EBC72E /* logo.png in Resources */,
 				BEF5AFB01FE7511800BABB3E /* Assets.xcassets in Resources */,
+				BE44300C1FE8A44E00EBC72E /* back.png in Resources */,
 				BE4430041FE8A36300EBC72E /* star.png in Resources */,
 				BE4430011FE8A36300EBC72E /* folder_light.png in Resources */,
 				BEF5AFAE1FE7511800BABB3E /* Main.storyboard in Resources */,
