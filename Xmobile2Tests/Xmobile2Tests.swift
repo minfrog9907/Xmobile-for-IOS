@@ -1,15 +1,15 @@
 //
-//  XmobileTests.swift
-//  XmobileTests
+//  Xmobile2Tests.swift
+//  Xmobile2Tests
 //
-//  Created by mac on 2017. 11. 22..
-//  Copyright © 2017년 mac. All rights reserved.
+//  Created by Will on 2017. 12. 17..
+//  Copyright © 2017년 Will. All rights reserved.
 //
 
 import XCTest
-@testable import Xmobile
+@testable import Xmobile2
 
-class XmobileTests: XCTestCase {
+class Xmobile2Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
