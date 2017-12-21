@@ -16,6 +16,9 @@
 		BE4430081FE8A39800EBC72E /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4430071FE8A39800EBC72E /* logo_big.png */; };
 		BE44300A1FE8A42D00EBC72E /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4430091FE8A42D00EBC72E /* progress.png */; };
 		BE44300C1FE8A44E00EBC72E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE44300B1FE8A44E00EBC72E /* back.png */; };
+		BE44300E1FE8F04000EBC72E /* UserDefaultCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44300D1FE8F04000EBC72E /* UserDefaultCore.swift */; };
+		BE4430101FE9E57E00EBC72E /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44300F1FE9E57E00EBC72E /* FileItem.swift */; };
+		BE4430131FEA22E500EBC72E /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4430121FEA22E500EBC72E /* HistoryItem.swift */; };
 		BEF5AFA91FE7511800BABB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5AFA81FE7511800BABB3E /* AppDelegate.swift */; };
 		BEF5AFAB1FE7511800BABB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5AFAA1FE7511800BABB3E /* ViewController.swift */; };
 		BEF5AFAE1FE7511800BABB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5AFAC1FE7511800BABB3E /* Main.storyboard */; };
@@ -52,6 +55,9 @@
 		BE4430071FE8A39800EBC72E /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_big.png; path = ../../../../Downloads/DarkTheme/logo_big.png; sourceTree = "<group>"; };
 		BE4430091FE8A42D00EBC72E /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progress.png; path = ../../../../Downloads/progress.png; sourceTree = "<group>"; };
 		BE44300B1FE8A44E00EBC72E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../back.png; sourceTree = "<group>"; };
+		BE44300D1FE8F04000EBC72E /* UserDefaultCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultCore.swift; sourceTree = "<group>"; };
+		BE44300F1FE9E57E00EBC72E /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		BE4430121FEA22E500EBC72E /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
 		BEF5AFA51FE7511800BABB3E /* Xmobile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xmobile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5AFA81FE7511800BABB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF5AFAA1FE7511800BABB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +114,15 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
+		BE4430111FEA21AE00EBC72E /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				BE44300F1FE9E57E00EBC72E /* FileItem.swift */,
+				BE4430121FEA22E500EBC72E /* HistoryItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
 		BEF5AF9C1FE7511800BABB3E = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +146,7 @@
 		BEF5AFA71FE7511800BABB3E /* Xmobile2 */ = {
 			isa = PBXGroup;
 			children = (
+				BE4430111FEA21AE00EBC72E /* Item */,
 				BE442FFA1FE8A30500EBC72E /* resource */,
 				BEF5AFA81FE7511800BABB3E /* AppDelegate.swift */,
 				BEF5AFAA1FE7511800BABB3E /* ViewController.swift */,
@@ -138,6 +154,7 @@
 				BEF5AFAF1FE7511800BABB3E /* Assets.xcassets */,
 				BEF5AFB11FE7511800BABB3E /* LaunchScreen.storyboard */,
 				BEF5AFB41FE7511800BABB3E /* Info.plist */,
+				BE44300D1FE8F04000EBC72E /* UserDefaultCore.swift */,
 			);
 			path = Xmobile2;
 			sourceTree = "<group>";
@@ -303,7 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4430101FE9E57E00EBC72E /* FileItem.swift in Sources */,
 				BEF5AFAB1FE7511800BABB3E /* ViewController.swift in Sources */,
+				BE44300E1FE8F04000EBC72E /* UserDefaultCore.swift in Sources */,
+				BE4430131FEA22E500EBC72E /* HistoryItem.swift in Sources */,
 				BEF5AFA91FE7511800BABB3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
