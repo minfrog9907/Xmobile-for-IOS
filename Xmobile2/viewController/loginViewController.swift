@@ -32,6 +32,6 @@ class loginViewController: UIViewController {
     }
     
     func loginSystem(id : String , pw : String){
-        
+        NSLog("<#T##format: String##String#>")
     }
 }
