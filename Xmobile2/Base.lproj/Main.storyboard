@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DVM-s0-UTZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="06j-iy-KXW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,6 +19,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+=======
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progress.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-Wa-3dp">
+                                <rect key="frame" x="0.0" y="88" width="375" height="387"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Fgg-Wa-3dp" secondAttribute="height" multiplier="125:129" id="2Yh-yE-gaD"/>
+                                    <constraint firstAttribute="width" secondItem="Fgg-Wa-3dp" secondAttribute="height" multiplier="125:129" id="LeE-5R-qcM"/>
+                                    <constraint firstAttribute="width" secondItem="Fgg-Wa-3dp" secondAttribute="height" multiplier="125:129" id="MPV-S2-vUH"/>
+                                </constraints>
+                            </imageView>
+>>>>>>> 934cad17a93086f3effdadc9950775ebd3cb3cf0
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="foV-8c-CMX">
                                 <rect key="frame" x="0.0" y="88" width="375" height="387"/>
                                 <constraints>
@@ -35,6 +46,13 @@
                         <constraints>
                             <constraint firstItem="foV-8c-CMX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="63V-L0-ORn"/>
                             <constraint firstItem="foV-8c-CMX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="EMj-He-eiP"/>
+<<<<<<< HEAD
+=======
+                            <constraint firstItem="Fgg-Wa-3dp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="I4A-0m-WQj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B71-I9-UYj" secondAttribute="trailing" constant="127" id="NJJ-PQ-ZWz"/>
+                            <constraint firstItem="Fgg-Wa-3dp" firstAttribute="leading" secondItem="foV-8c-CMX" secondAttribute="leading" id="Reo-xA-TD5"/>
+                            <constraint firstItem="B71-I9-UYj" firstAttribute="top" secondItem="Fgg-Wa-3dp" secondAttribute="bottom" constant="19" id="edU-E5-WXX"/>
+>>>>>>> 934cad17a93086f3effdadc9950775ebd3cb3cf0
                             <constraint firstItem="foV-8c-CMX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jRJ-m9-8kC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -114,6 +132,91 @@
             </objects>
             <point key="canvasLocation" x="550" y="886"/>
         </scene>
+        <!--Login View Controller-->
+        <scene sceneID="IiF-a1-wsS">
+            <objects>
+                <viewController id="06j-iy-KXW" customClass="loginViewController" customModule="Xmobile2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zyy-EA-xk8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozV-UA-d2K">
+                                <rect key="frame" x="0.0" y="633" width="375" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ozV-UA-d2K" secondAttribute="height" multiplier="375:34" id="qll-42-hQL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title=" 로그인">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSubmit:" destination="06j-iy-KXW" eventType="touchDown" id="CXv-I6-Hms"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="3VF-zC-cb9">
+                                <rect key="frame" x="116" y="85" width="142" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3VF-zC-cb9" secondAttribute="height" multiplier="142:91" id="AUX-Mo-W8f"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uja-W7-xVt" customClass="singleLineTextField" customModule="Xmobile2" customModuleProvider="target">
+                                <rect key="frame" x="65" y="246" width="244" height="30"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g7s-qW-zh5" customClass="singleLineTextField" customModule="Xmobile2" customModuleProvider="target">
+                                <rect key="frame" x="65" y="313" width="244" height="30"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ozV-UA-d2K" firstAttribute="trailing" secondItem="VAw-7s-xyV" secondAttribute="trailing" id="2RS-Kl-mWU"/>
+                            <constraint firstItem="VAw-7s-xyV" firstAttribute="trailing" secondItem="3VF-zC-cb9" secondAttribute="trailing" constant="117" id="7J8-ru-GNu"/>
+                            <constraint firstItem="3VF-zC-cb9" firstAttribute="top" secondItem="VAw-7s-xyV" secondAttribute="top" constant="65" id="CWE-Jg-436"/>
+                            <constraint firstItem="ozV-UA-d2K" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" id="QhI-qk-q12"/>
+                            <constraint firstItem="ozV-UA-d2K" firstAttribute="bottom" secondItem="VAw-7s-xyV" secondAttribute="bottom" id="W9U-y7-GNV"/>
+                            <constraint firstItem="ozV-UA-d2K" firstAttribute="top" secondItem="g7s-qW-zh5" secondAttribute="bottom" constant="290" id="X92-da-lAs"/>
+                            <constraint firstItem="VAw-7s-xyV" firstAttribute="trailing" secondItem="uja-W7-xVt" secondAttribute="trailing" constant="66" id="bH1-7x-Syy"/>
+                            <constraint firstItem="uja-W7-xVt" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" constant="65" id="bTO-Q0-8Al"/>
+                            <constraint firstItem="3VF-zC-cb9" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" constant="116" id="eYH-J8-8sg"/>
+                            <constraint firstItem="VAw-7s-xyV" firstAttribute="trailing" secondItem="g7s-qW-zh5" secondAttribute="trailing" constant="66" id="fLU-Gg-4Ij"/>
+                            <constraint firstItem="VAw-7s-xyV" firstAttribute="trailing" secondItem="uja-W7-xVt" secondAttribute="trailing" constant="66" id="kkq-1V-yKz"/>
+                            <constraint firstItem="g7s-qW-zh5" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" constant="65" id="q3L-Qv-FWp"/>
+                            <constraint firstItem="g7s-qW-zh5" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" constant="65" id="tTb-sC-e6k"/>
+                            <constraint firstItem="g7s-qW-zh5" firstAttribute="top" secondItem="uja-W7-xVt" secondAttribute="bottom" constant="37" id="uMw-U4-cML"/>
+                            <constraint firstItem="VAw-7s-xyV" firstAttribute="trailing" secondItem="g7s-qW-zh5" secondAttribute="trailing" constant="66" id="udm-8i-RjH"/>
+                            <constraint firstItem="uja-W7-xVt" firstAttribute="leading" secondItem="VAw-7s-xyV" secondAttribute="leading" constant="65" id="usb-19-uPn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VAw-7s-xyV"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="form_id" destination="uja-W7-xVt" id="Gea-Jx-FPn"/>
+                        <outlet property="form_pw" destination="g7s-qW-zh5" id="ibh-dK-hXT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chm-tu-kRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1356" y="111.0944527736132"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="r06-aR-l5O">
             <objects>
@@ -130,7 +233,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUh-yc-89O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-350" y="117"/>
+            <point key="canvasLocation" x="-374" y="111"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="viD-2S-Maz">
@@ -164,6 +267,11 @@
         <image name="folder_light.png" width="24" height="24"/>
         <image name="history.png" width="24" height="24"/>
         <image name="logo.png" width="24" height="20"/>
+<<<<<<< HEAD
+=======
+        <image name="logo_big.png" width="260" height="215"/>
+        <image name="progress.png" width="1080" height="1089"/>
+>>>>>>> 934cad17a93086f3effdadc9950775ebd3cb3cf0
         <image name="settings.png" width="24" height="24"/>
         <image name="star.png" width="24" height="24"/>
     </resources>
