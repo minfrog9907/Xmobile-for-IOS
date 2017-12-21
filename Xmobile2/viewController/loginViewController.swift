@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftHTTP
+import JSONJoy
 
 class loginViewController: UIViewController {
 
@@ -32,6 +34,8 @@ class loginViewController: UIViewController {
     }
     
     func loginSystem(id : String , pw : String){
-        NSLog("<#T##format: String##String#>")
+        var progress = ProgressDialog(delegate: self);
+        print("GET call");
+        progress.Show(animate: true, mesaj: "Loading...")
     }
 }

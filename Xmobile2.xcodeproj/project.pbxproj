@@ -11,6 +11,7 @@
 		0471D9C71FEB450F002A46C8 /* SwiftHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0471D9C31FEB4504002A46C8 /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0471D9CB1FEB451F002A46C8 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0471D9B01FEB44F7002A46C8 /* JSONJoy.framework */; };
 		0471D9CC1FEB451F002A46C8 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0471D9B01FEB44F7002A46C8 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0471D9D21FEB480E002A46C8 /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471D9D11FEB480E002A46C8 /* ProgressDialog.swift */; };
 		049145A31FE8AEAD00DC2B6E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0491459B1FE8AEAD00DC2B6E /* logo.png */; };
 		049145A41FE8AEAD00DC2B6E /* star_pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0491459C1FE8AEAD00DC2B6E /* star_pig.png */; };
 		049145A51FE8AEAD00DC2B6E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0491459D1FE8AEAD00DC2B6E /* star.png */; };
@@ -146,6 +147,8 @@
 /* Begin PBXFileReference section */
 		0471D9A51FEB44F7002A46C8 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "../../Downloads/JSONJoy-Swift-master/JSONJoy.xcodeproj"; sourceTree = "<group>"; };
 		0471D9BD1FEB4504002A46C8 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = "../../Downloads/SwiftHTTP-master/SwiftHTTP.xcodeproj"; sourceTree = "<group>"; };
+		0471D9CF1FEB474B002A46C8 /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressDialog.swift; path = "../../Downloads/swift-progress-dialog-master/ProgressDialog.swift"; sourceTree = "<group>"; };
+		0471D9D11FEB480E002A46C8 /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
 		0491459B1FE8AEAD00DC2B6E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
 		0491459C1FE8AEAD00DC2B6E /* star_pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_pig.png; path = ../../../../Downloads/star_pig.png; sourceTree = "<group>"; };
 		0491459D1FE8AEAD00DC2B6E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../../../../Downloads/star.png; sourceTree = "<group>"; };
@@ -228,6 +231,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0471D9D01FEB4804002A46C8 /* ProgressDialog */ = {
+			isa = PBXGroup;
+			children = (
+				0471D9D11FEB480E002A46C8 /* ProgressDialog.swift */,
+			);
+			path = ProgressDialog;
+			sourceTree = "<group>";
+		};
 		0491459A1FE8AD5400DC2B6E /* resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +282,7 @@
 		BEF5AF9C1FE7511800BABB3E = {
 			isa = PBXGroup;
 			children = (
+				0471D9CF1FEB474B002A46C8 /* ProgressDialog.swift */,
 				0471D9BD1FEB4504002A46C8 /* SwiftHTTP.xcodeproj */,
 				0471D9A51FEB44F7002A46C8 /* JSONJoy.xcodeproj */,
 				BEF5AFA71FE7511800BABB3E /* Xmobile2 */,
@@ -293,6 +305,7 @@
 		BEF5AFA71FE7511800BABB3E /* Xmobile2 */ = {
 			isa = PBXGroup;
 			children = (
+				0471D9D01FEB4804002A46C8 /* ProgressDialog */,
 				049145C71FEA01F800DC2B6E /* customLayout */,
 				049145C41FEA000D00DC2B6E /* view */,
 				049145AD1FE8B03200DC2B6E /* viewController */,
@@ -552,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0471D9D21FEB480E002A46C8 /* ProgressDialog.swift in Sources */,
 				BEF5AFAB1FE7511800BABB3E /* ViewController.swift in Sources */,
 				049145C91FEA027A00DC2B6E /* singleLineTextField.swift in Sources */,
 				BEF5AFA91FE7511800BABB3E /* AppDelegate.swift in Sources */,
